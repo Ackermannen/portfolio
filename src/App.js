@@ -15,43 +15,43 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/projects/werewolf">
+        <Route path="/portfolio/projects/werewolf">
           <Werewolf />
         </Route>
 
-        <Route path="/projects/javachat">
+        <Route path="/portfolio/projects/javachat">
           <JavaChat />
         </Route>
 
-        <Route path="/projects/chachino">
+        <Route path="/portfolio/projects/chachino">
           <Chachino />
         </Route>
 
-        <Route path="/projects/8bitcomp">
+        <Route path="/portfolio/projects/8bitcomp">
           <BitComp />
         </Route>
 
-        <Route path="/projects/treasurehunt">
+        <Route path="/portfolio/projects/treasurehunt">
           <TreasureHunt />
         </Route>
 
-        <Route path="/projects/radioinfo">
+        <Route path="/portfolio/projects/radioinfo">
           <RadioInfo />
         </Route>
 
-        <Route path="/projects/antitd">
+        <Route path="/portfolio/projects/antitd">
           <AntiTD />
         </Route>
 
-        <Route path="/projects/portfolio">
+        <Route path="/portfolio/projects/portfolio">
           <Portfolio />
         </Route>
 
-        <Route path="/projects">
+        <Route path="/portfolio/projects">
           <Projects />
         </Route>
 
-        <Route path="/">
+        <Route path="/portfolio">
           <Main />
         </Route>
       </Switch>
