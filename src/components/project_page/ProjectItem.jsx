@@ -6,7 +6,7 @@ class ProjectItem extends Component {
 
   render() {
     const bg = require('../../img/projectImages/' + this.props.image);
-    const linkName = '/portfolio/projects/' + this.props.linkName;
+    const linkName = '/projects/' + this.props.linkName;
 
     const classes = !this.props.show ? 'remove' : 'show';
     return (

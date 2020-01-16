@@ -6,7 +6,7 @@ const AboutMeWrapper = () => {
     <div className="footerWrapper">
       <div className="footerItem">
         <p>
-          <a href="/portfolio">Home</a>
+          <a href="#/">Home</a>
         </p>
         <p>
           <a href="https://www.linkedin.com/in/wilhelm-ackermann-4ba48b164/">
@@ -23,7 +23,7 @@ const AboutMeWrapper = () => {
           <a href={cv}>CV</a>
         </p>
         <p>
-          <a href="/portfolio/projects">Projects</a>
+          <a href="#/projects">Projects</a>
         </p>
       </div>
       <div className="footerItem">

@@ -17,7 +17,7 @@ const HeaderWrapper = () => {
             </p>
           </div>
           <div>
-            <Link className="button linker" to="/portfolio/projects">
+            <Link className="button linker" to="/projects">
               Link to Portfolio
             </Link>
           </div>

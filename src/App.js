@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Main from './pages/Main';
 import Projects from './pages/Projects';
 import Portfolio from './pages/projects/Portfolio';
@@ -13,49 +13,49 @@ import Werewolf from './pages/projects/Werewolf';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/portfolio">
       <Switch>
-        <Route path="/portfolio/projects/werewolf">
+        <Route path="/projects/werewolf">
           <Werewolf />
         </Route>
 
-        <Route path="/portfolio/projects/javachat">
+        <Route path="/projects/javachat">
           <JavaChat />
         </Route>
 
-        <Route path="/portfolio/projects/chachino">
+        <Route path="/projects/chachino">
           <Chachino />
         </Route>
 
-        <Route path="/portfolio/projects/8bitcomp">
+        <Route path="/projects/8bitcomp">
           <BitComp />
         </Route>
 
-        <Route path="/portfolio/projects/treasurehunt">
+        <Route path="/projects/treasurehunt">
           <TreasureHunt />
         </Route>
 
-        <Route path="/portfolio/projects/radioinfo">
+        <Route path="/projects/radioinfo">
           <RadioInfo />
         </Route>
 
-        <Route path="/portfolio/projects/antitd">
+        <Route path="/projects/antitd">
           <AntiTD />
         </Route>
 
-        <Route path="/portfolio/projects/portfolio">
+        <Route path="/projects/portfolio">
           <Portfolio />
         </Route>
 
-        <Route path="/portfolio/projects">
+        <Route path="/projects">
           <Projects />
         </Route>
 
-        <Route path="/portfolio">
+        <Route path="/">
           <Main />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

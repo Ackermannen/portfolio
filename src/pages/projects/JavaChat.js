@@ -8,7 +8,7 @@ class JavaChat extends Component {
     return (
       <div id="projectItemContainer">
         <div id="backArrow">
-          <a href="/portfolio/projects">
+          <a href="#/portfolio/projects">
             <p>&#8678;</p>
           </a>
         </div>
