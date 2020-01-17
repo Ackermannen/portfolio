@@ -17,17 +17,6 @@
   font-style: normal;
   font-variant: normal;
   text-transform: none;
-
-  //animation: animatedBackground 80s linear infinite;
-}
-
-@keyframes animatedBackground {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: 1200px 1200px;
-  }
 }
 
 .wrapper h1 {
